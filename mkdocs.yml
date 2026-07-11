@@ -1,0 +1,42 @@
+site_name: Tad Hatch
+site_description: Site Reliability and DevOps engineering portfolio
+site_author: Tad Hatch
+site_url: https://tadhatch.com
+
+repo_name: tadhatch/tadhatch.github.io
+repo_url: https://github.com/tadhatch/tadhatch.github.io
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: blue
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Overview: projects/index.md
+      - Neo4j Modernization: projects/neo4j-modernization.md
+      - Snowflake Platform: projects/snowflake-platform.md
+      - Merch Platform: projects/merch-platform.md
+  - About: about.md
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+strict: true

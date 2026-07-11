@@ -1,3 +1,6 @@
-_site
-.sass-cache
-.jekyll-metadata
+.venv/
+site/
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
